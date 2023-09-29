@@ -1,0 +1,26 @@
+#MENU{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(160, 6, 194, 0.3);
+}
+
+body{
+    animation: FONDO 10s ease 1ms infinite alternate forwards;
+}
+
+@keyframes FONDO {
+    from{
+        background-color: rgb(37, 1, 71);
+    }
+    to{
+        background-color: rgb(67, 0, 148);
+    }
+}
+@keyframes FONDO {
+    from{
+        background-color: rgb(67, 0, 148);
+    }
+    to{
+        background-color:  rgb(37, 1, 71);
+    }
+}
