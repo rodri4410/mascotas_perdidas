@@ -6,6 +6,8 @@
 
 body{
     animation: FONDO 10s ease 1ms infinite alternate forwards;
+    color: white;
+    font-family: 'RussoOne-regular';
 }
 
 @keyframes FONDO {
@@ -24,3 +26,9 @@ body{
         background-color:  rgb(37, 1, 71);
     }
 }
+
+.Opciones{
+    display: flex;
+    justify-content: space-between;
+}
+
