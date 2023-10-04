@@ -1,8 +1,33 @@
-#MENU{
+#MENU1{
     display: flex;
     justify-content: flex-end;
     background-color: rgba(160, 6, 194, 0.3);
 }
+
+#MENU2{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(160, 6, 194, 0.3);
+}
+
+#MENU3{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(160, 6, 194, 0.3);
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+@media only screen and (min-width: 800px) {
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+}
+
 
 body{
     animation: FONDO 10s ease 1ms infinite alternate forwards;
