@@ -8,24 +8,49 @@
     display: flex;
     justify-content: flex-end;
     background-color: rgba(160, 6, 194, 0.3);
+    
 }
 
 #MENU3{
     display: flex;
     justify-content: flex-end;
-    background-color: rgba(160, 6, 194, 0.3);
+    background-color:transparent;
 }
 
 @media only screen and (max-width: 800px) {
-
+#MENU1{
+    display: none;
+}
+#MENU2{
+    display: none;
+}
 }
 
 @media only screen and (min-width: 800px) {
+    #MENU1{
+        display: none;
+    }
+    #MENU2{
+      
+         display: flex;
+        justify-content: flex-end;
 
+    }
+    #MENU3{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
-
+    #MENU1{
+        display: flex;
+    }
+    #MENU2{
+        display: none;
+    }
+    #MENU3{
+        display: none;
+    }
 }
 
 
