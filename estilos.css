@@ -84,3 +84,27 @@ body{
     justify-content: space-between;
 }
 
+footer{
+    display:flex ;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color:rgba(160, 6, 194, 0.3) ;
+    
+}
+
+
+#tablas1{
+    display: flex;
+    justify-content: flex-end;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+}
+#tablas2{
+    display: flex;
+    justify-content: flex-start;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+}
+
+
+
