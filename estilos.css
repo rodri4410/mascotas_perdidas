@@ -14,7 +14,7 @@
 #MENU3{
     display: flex;
     justify-content: flex-end;
-    flex-direction: column;
+    flex-direction: row;
     background-color:transparent;
 }
 
@@ -97,21 +97,17 @@ footer{
 }
 
 
-#tablas1{
+#tablas1,#tablas2{
     display: flex;
     justify-content: flex-end;
     border-style: double;
     border-color: rgb(255, 255, 255);
 }
-#tablas2{
-    display: flex;
-    justify-content: flex-start;
-    border-style: double;
-    border-color: rgb(255, 255, 255);
-}
+
 
 #COL{
     display: fixed;
     flex-direction: column;
 }
+
 
