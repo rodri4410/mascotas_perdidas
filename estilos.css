@@ -30,7 +30,7 @@
 }
 }
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 800px) {
     #MENU1{
         display: none;
     }
@@ -110,5 +110,8 @@ footer{
     border-color: rgb(255, 255, 255);
 }
 
-
+#COL{
+    display: fixed;
+    flex-direction: column;
+}
 
